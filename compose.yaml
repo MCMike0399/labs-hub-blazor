@@ -1,0 +1,6 @@
+﻿services:
+  labshub:
+    image: labshub
+    build:
+      context: .
+      dockerfile: Dockerfile
